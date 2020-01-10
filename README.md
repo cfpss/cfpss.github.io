@@ -4,8 +4,12 @@ This project will develop a computational approach to advance the discovery and 
 
 The aim of this Github page is to make open source the developed software simulation algorithms and algorithms for sensing and navigation in Virginia Tech. In addition, the conceptual framework articles will also be available soon.
 
+#### Code
 
-For more details contact: 
+click "View on GitHub" for the code and publised articles. 
+
+
+#### Contact Details 
 
 Dr. Hongxiao Zhu,<br> Associate Professor, <br> Department of Statistics,<br> Virginia Tech, USA. <br> https://www.apps.stat.vt.edu/zhu/ <br> Email: hongxiao@vt.edu 
 
