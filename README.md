@@ -12,5 +12,3 @@ click "View on GitHub" for the code and publised articles.
 #### Contact Details 
 
 Dr. Hongxiao Zhu,<br> Associate Professor, <br> Department of Statistics,<br> Virginia Tech, USA. <br> https://www.apps.stat.vt.edu/zhu/ <br> Email: hongxiao@vt.edu 
-
-<! –– <br> ![header image](https://github.com/cfpss/cfpss.github.io/blob/master/Bat_navigating.png) ––>
