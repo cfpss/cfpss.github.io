@@ -1,0 +1,3 @@
+Run the MATLAB script named 'simu_Ginkgo_beamexpand.m' and 'simu_pine_scan.m' to obtain the returning echoes from two scenarios, expanding sonar beamwidth when ensonifying a ginkgo tree and scanning a pine tree with fixed beamwidth, respectively. The third scenario (approach) I showed in defense can be derived by changing the x coordinate of sonar and fix other parameters (V_alpha = 0, fixed beamwidth)
+The paper 'Botanical tree image generation' showed the L-system rules very clearly, which may provide some hints about understanding the code.
+If you have any questions, please do not hesitate to shoot me an email.
