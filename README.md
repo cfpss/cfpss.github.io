@@ -8,5 +8,5 @@ The aim of this Github page is to make open source the developed software simula
 
 For more details contact: 
 
-Associate Professor Dr. Hongxiao Zhu,<br> https://www.apps.stat.vt.edu/zhu/ <br> Email: hongxiao@vt.edu 
+Dr. Hongxiao Zhu,<br> Associate Professor, <br> Department of Statistics,<br> Virginia Tech, USA. <br> https://www.apps.stat.vt.edu/zhu/ <br> Email: hongxiao@vt.edu 
 
