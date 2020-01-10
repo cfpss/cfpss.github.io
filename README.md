@@ -8,13 +8,21 @@ The aim of this Github page is to make open source the developed software simula
 
 For more details contact: 
 Dr. Hongxiao Zhu,
+
 Associate Professor
+
 Department of Statistics
+
 Virginia Tech
+
 Office: 403H Hutcheson Hall
+
 Phone: (540) 231-0400
+
 Fax: (540) 231-3863
+
 Email:
+
 (https://www.apps.stat.vt.edu/zhu/).
 
 ### Jekyll Themes
