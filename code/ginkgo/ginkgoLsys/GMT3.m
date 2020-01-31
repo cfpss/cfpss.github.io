@@ -23,7 +23,21 @@ load(sprintf('ax%d',nReps));
 %Rules--
 rule(1).before = 'g';
 %rule(1).after = '(g';
-rule(1).after = 'd(d)+d)[d(d)+d)[d(d)+d)'; 
+%rule(1).after = 'd(d)+)[d(d)+)[d(d)+)';
+
+all_rules = ["'d(d)+)'";"'d(d)+d)[d(d)+d)'";"'d(d)+)[d(d)+)[d(d)+)'";"'d(d)+)[d(d)+)[d(d)+)[d(d)+)'";...
+    "'d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)'";"'d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)'";"'d(d)+d)[d(d)+d)[d(d)+d)[d(d)+d)[d(d)+d)[d(d)+d)[d(d)+d)'";...
+    "'d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)'";"'d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)'";...
+    "'d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)'";"'d(d)+d)[d(d)+d)[d(d)+d)[d(d)+d)[d(d)+d)[d(d)+d)[d(d)+d)[d(d)+d)[d(d)+d)[d(d)+d)[d(d)+d)'";...
+    "'d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)[d(d)+)'"];
+
+%eta = randi(length(all_rules))
+eta = 2
+newrule = convertStringsToChars(all_rules(eta));
+rule(1).after = newrule(2:end-1);
+
+%rule(1).after = 'd(d)[d(d)';
+%rule(1).after = 'd(d)+d)[d(d)+d)[d(d)+d)'; 
 %rule(1).after = 'd(g)[g)+g)';
 
 % d(d(d(d(g)[g)+g))[d(g)[g)+g))+d(g)[g)+g)))[d(d(g)[g)+g))[d(g)[g)+g))+d(g)[g)+g)))+d(d(g)[g)+d(g)[g)+g)))[d(g)[g)+g))+d(g)[g)+g))))[d(d(d(g)[g)+g))[d(g)[g)+g))+d(g)[g)+g)))[d(d(g)[g)+g))[d(g)[g)+g))+d(g)[g)+g)))+d(d(g)[g)+g))[d(g)[g)+g))+d(g)[g)+g))))+d(d(d(g)[g)+g))[d(g)[g)+g))+d(g)[g)+g)))[d(d(g)[g)+g))[d(g)[g)+g))+d(g)[g)+g)))+d(d(g)[g)+g))[d(g)[g)+g))+g)))
